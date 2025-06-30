@@ -1,0 +1,46 @@
+.logo {
+  font-weight: bold;
+  color: #7fad39;
+  margin-top: 0.5em;
+}
+
+/*** Single Page Start ***/
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: #333;
+  padding: 10px 16px;
+  text-decoration: none;
+  transition: 0.5s;
+  border: 1px solid #f3f6f8;
+  margin: 0 4px;
+}
+
+.pagination a.active {
+  background-color: #f3f6f8;
+  color: orange;
+  border: 1px solid #f3f6f8;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #7fad39;
+}
+
+.nav.nav-tabs .nav-link.active {
+  border-bottom: 2px solid #f3f6f8 !important;
+}
+/*** Single Page End ***/
+
+.footer {
+  background: #bdd7e7;
+}
+
+.container_image_product {
+  height: 50vh !important;
+}
+
+.rounded {
+  border-radius: 10px !important;
+}

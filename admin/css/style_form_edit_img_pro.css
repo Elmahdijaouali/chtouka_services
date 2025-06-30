@@ -1,0 +1,73 @@
+.container_edit_image {
+  max-width: 500px;
+  margin: 2em auto;
+  padding: 2em;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+.container_edit_image h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 1.5em;
+}
+
+.container_edit_image label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+  color: #555;
+}
+
+.container_edit_image img {
+  display: block;
+  margin: 0 auto 1em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.container_edit_image input[type="file"] {
+  display: block;
+  width: 100%;
+  padding: 0.5em;
+  margin-bottom: 1.5em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.3s;
+}
+
+.container_edit_image input[type="file"]:focus {
+  border-color: #7fad39;
+  outline: none;
+}
+
+.container_edit_image button {
+  display: block;
+  width: 100%;
+  padding: 0.75em;
+  background-color: #7fad39;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.container_edit_image button:hover {
+  background-color: #6fa831;
+}
+
+.container_edit_image a {
+  display: block;
+  text-align: center;
+  margin-top: 1em;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.container_edit_image a:hover {
+  text-decoration: underline;
+}

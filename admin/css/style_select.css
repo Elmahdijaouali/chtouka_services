@@ -1,0 +1,7 @@
+select {
+  padding: 5px 10px; 
+  font-size: 14px;
+  color: #495057; 
+  cursor: pointer; 
+  transition: border-color 0.2s; 
+}

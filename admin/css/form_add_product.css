@@ -1,0 +1,46 @@
+.form_add_product h2 {
+  margin-top: 20px;
+  color: #555;
+  text-align: center;
+}
+
+.form_add_product fieldset {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #f8f8f8;
+}
+
+.form_add_product legend {
+  font-weight: bold;
+  color: #333;
+  font-size: 18px;
+}
+
+.form_add_product label {
+  margin-top: 10px;
+}
+
+.form_add_product input[type="text"],
+.form_add_product textarea {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: calc(100% - 22px);
+}
+
+.form_add_product textarea {
+  resize: vertical;
+}
+
+.form_add_product #product_name_ar,
+.form_add_product textarea.text_right {
+  text-align: right;
+}
+.form_add_product .text_right {
+  display: block;
+  text-align: right;
+  width: 100%;
+}
